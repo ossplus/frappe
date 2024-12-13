@@ -94,7 +94,7 @@ def is_fc_site():
 @frappe.whitelist()
 def send_verification_code():
 	request = requests.post(
-		f"{get_base_url()}/api/method/press.api.developer.saas.request_login_to_fc",
+		f"{get_base_url()}/api/method/press.api.developer.saas.send_verification_code",
 		headers=get_headers(),
 		json={"domain": get_site_name()},
 	)
@@ -105,11 +105,11 @@ def send_verification_code():
 
 
 @frappe.whitelist()
-def verify_and_login(verification_code: str):
+def verify_verification_code(verification_code: str):
 	request = requests.post(
-		f"{get_base_url()}/api/method/press.api.developer.saas.validate_login_to_fc",
+		f"{get_base_url()}/api/method/press.api.developer.saas.verify_verification_code",
 		headers=get_headers(),
-		json={"domain": get_site_name(), "otp": verification_code},
+		json={"domain": get_site_name(), "verification_code": verification_code},
 	)
 
 	if request.status_code == 200:

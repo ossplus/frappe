@@ -91,12 +91,12 @@ function showFCLoginDialog(email) {
 			return;
 		}
 		frappe.call({
-			method: "frappe.integrations.frappe_providers.frappecloud_billing.verify_and_login",
+			method: "frappe.integrations.frappe_providers.frappecloud_billing.verify_verification_code",
 			args: {
 				verification_code: otp,
 			},
 			freeze: true,
-			freeze_message: __("Validating verification code..."),
+			freeze_message: __("Verifying verification code..."),
 			callback: function (r) {
 				const message = r.message;
 				if (message.login_token) {
