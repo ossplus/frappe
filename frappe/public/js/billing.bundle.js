@@ -132,7 +132,7 @@ function showFCLoginDialog(email) {
 }
 
 function addLoginToFCDropdownItem() {
-	$(".dropdown-navbar-user .dropdown-menu .dropdown-item:nth-child(2)").after(
+	$(".dropdown-navbar-user .dropdown-menu .dropdown-item:last()").before(
 		`<div class="dropdown-item login-to-fc" target="_blank">Login to Frappe Cloud</div>`
 	);
 }
