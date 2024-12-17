@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2024-12-01 17:58+0000\n"
-"PO-Revision-Date: 2024-12-16 20:29\n"
+"PO-Revision-Date: 2024-12-17 20:28\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Persian\n"
 "MIME-Version: 1.0\n"
@@ -1240,11 +1240,11 @@ msgstr "اضافه کردن اسکریپت برای جدول فرزند"
 
 #: frappe/public/js/print_format_builder/PrintFormatSection.vue:111
 msgid "Add section above"
-msgstr ""
+msgstr "افزودن بخش بالا"
 
 #: frappe/public/js/form_builder/components/Section.vue:265
 msgid "Add section below"
-msgstr ""
+msgstr "افزودن بخش زیر"
 
 #: frappe/public/js/form_builder/components/Sidebar.vue:52
 #: frappe/public/js/form_builder/components/Tabs.vue:157
@@ -2270,7 +2270,7 @@ msgstr "آیا مطمئن هستید که می خواهید ستون را حذف
 #: frappe/public/js/form_builder/components/Section.vue:126
 msgctxt "Confirmation dialog message"
 msgid "Are you sure you want to delete the section? All the columns along with fields in the section will be moved to the previous section."
-msgstr ""
+msgstr "آیا مطمئن هستید که می خواهید بخش را حذف کنید؟ تمام ستون ها به همراه فیلدهای موجود در بخش به بخش قبلی منتقل می شوند."
 
 #: frappe/public/js/form_builder/components/Tabs.vue:65
 msgctxt "Confirmation dialog message"
@@ -9516,7 +9516,7 @@ msgstr "پیام‌های نوع پایتون صادر نشد"
 
 #: frappe/integrations/frappe_providers/frappecloud_billing.py:48
 msgid "Failed to generate access token"
-msgstr ""
+msgstr "توکن دسترسی ایجاد نشد"
 
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.py:249
 msgid "Failed to generate names from the series"
