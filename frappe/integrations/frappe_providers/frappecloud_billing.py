@@ -105,11 +105,11 @@ def send_verification_code():
 
 
 @frappe.whitelist()
-def verify_verification_code(verification_code: str):
+def verify_verification_code(verification_code: str, target: str):
 	request = requests.post(
 		f"{get_base_url()}/api/method/press.api.developer.saas.verify_verification_code",
 		headers=get_headers(),
-		json={"domain": get_site_name(), "verification_code": verification_code},
+		json={"domain": get_site_name(), "verification_code": verification_code, "target": target},
 	)
 
 	if request.status_code == 200:

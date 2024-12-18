@@ -381,7 +381,8 @@ frappe.Application = class Application {
 				if (r.exc) {
 					return;
 				}
-				me.redirect_to_login();
+				if (frappe.boot.fc_communication_secret) me.redirect_to_fc_login();
+				else me.redirect_to_login();
 			},
 		});
 	}
@@ -392,6 +393,9 @@ frappe.Application = class Application {
 		window.location.href = `/login?redirect-to=${encodeURIComponent(
 			window.location.pathname + window.location.search
 		)}`;
+	}
+	redirect_to_fc_login() {
+		window.location.href = `https://frappecloud.com/login`;
 	}
 	set_favicon() {
 		var link = $('link[type="image/x-icon"]').remove().attr("href");
