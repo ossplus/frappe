@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2024-12-01 09:33+0000\n"
-"PO-Revision-Date: 2024-12-10 20:05\n"
+"PO-Revision-Date: 2024-12-19 20:45\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Turkish\n"
 "MIME-Version: 1.0\n"
@@ -12083,7 +12083,7 @@ msgstr "Saniyeleri Gizle"
 #. Label of the hide_toolbar (Check) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
 msgid "Hide Sidebar, Menu, and Comments"
-msgstr ""
+msgstr "Kenar Çubuğunu, Menüyü ve Yorumları Gizle"
 
 #. Label of the hide_standard_menu (Check) field in DocType 'Portal Settings'
 #: frappe/website/doctype/portal_settings/portal_settings.json
@@ -12127,7 +12127,7 @@ msgstr "Altbilgi kaydını gizle"
 #. Label of the hide_navbar (Check) field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
 msgid "Hide navbar"
-msgstr ""
+msgstr "Gezinme çubuğunu gizle"
 
 #. Option for the 'Priority' (Select) field in DocType 'ToDo'
 #: frappe/desk/doctype/todo/todo.json
@@ -13958,7 +13958,7 @@ msgstr "Klavye Kısayolları"
 #. Login Key'
 #: frappe/integrations/doctype/social_login_key/social_login_key.json
 msgid "Keycloak"
-msgstr ""
+msgstr "Keycloak"
 
 #: frappe/public/js/frappe/utils/number_systems.js:37
 msgctxt "Number system"
@@ -14450,15 +14450,15 @@ msgstr "Daha az"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:24
 msgid "Less Than"
-msgstr ""
+msgstr "Daha az"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:26
 msgid "Less Than Or Equal To"
-msgstr ""
+msgstr "Daha az veya eşit"
 
 #: frappe/public/js/frappe/widgets/onboarding_widget.js:434
 msgid "Let us continue with the onboarding"
-msgstr ""
+msgstr "Modül Tanıtımı ile devam edelim"
 
 #: frappe/public/js/frappe/views/workspace/blocks/onboarding.js:94
 #: frappe/public/js/frappe/widgets/onboarding_widget.js:597
@@ -14467,7 +14467,7 @@ msgstr "Haydi Başlayalım"
 
 #: frappe/utils/password_strength.py:111
 msgid "Let's avoid repeated words and characters"
-msgstr ""
+msgstr "Tekrarlanan kelimelerden ve karakterlerden kaçının"
 
 #: frappe/desk/page/setup_wizard/setup_wizard.js:451
 msgid "Let's set up your account"
@@ -15673,7 +15673,7 @@ msgstr "Mesaj Türü"
 
 #: frappe/public/js/frappe/views/communication.js:941
 msgid "Message clipped"
-msgstr ""
+msgstr "Mesaj kopyalandı"
 
 #: frappe/email/doctype/email_account/email_account.py:334
 msgid "Message from server: {0}"
@@ -15681,12 +15681,12 @@ msgstr "Sunucudan mesaj: {0}"
 
 #: frappe/automation/doctype/auto_repeat/auto_repeat.js:102
 msgid "Message not setup"
-msgstr ""
+msgstr "Mesaj ayarlanmamış"
 
 #. Description of the 'Success message' (Text) field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
 msgid "Message to be displayed on successful completion"
-msgstr ""
+msgstr "Başarıyla tamamlandığında görüntülenecek mesaj"
 
 #. Label of the message_id (Code) field in DocType 'Unhandled Email'
 #: frappe/email/doctype/unhandled_email/unhandled_email.json
@@ -16999,7 +16999,7 @@ msgstr "Henüz kişi eklenmedi."
 
 #: frappe/automation/doctype/auto_repeat/auto_repeat.py:431
 msgid "No contacts linked to document"
-msgstr ""
+msgstr "Belgeye bağlı kişi yok"
 
 #: frappe/desk/query_report.py:339
 msgid "No data to export"
@@ -21107,7 +21107,7 @@ msgstr "İletişim Bağlantısını Yenile"
 #. Option for the 'Comment Type' (Select) field in DocType 'Comment'
 #: frappe/core/doctype/comment/comment.json
 msgid "Relinked"
-msgstr ""
+msgstr "Yeniden Bağlandı"
 
 #. Label of a standard navbar item
 #. Type: Action
@@ -21206,7 +21206,7 @@ msgstr "Son sütunu kaldır"
 
 #: frappe/public/js/print_format_builder/PrintFormatSection.vue:130
 msgid "Remove page break"
-msgstr ""
+msgstr "Sayfa sonunu kaldır"
 
 #: frappe/public/js/form_builder/components/Section.vue:266
 #: frappe/public/js/print_format_builder/PrintFormatSection.vue:135
@@ -24732,7 +24732,7 @@ msgstr "Standart Yazdırma Formatı güncellenemez"
 
 #: frappe/printing/doctype/print_style/print_style.py:31
 msgid "Standard Print Style cannot be changed. Please duplicate to edit."
-msgstr ""
+msgstr "Standart Baskı Stili değiştirilemez. Düzenlemek için lütfen çoğaltın."
 
 #: frappe/desk/reportview.py:334
 msgid "Standard Reports cannot be deleted"
@@ -27141,7 +27141,7 @@ msgstr "En İyi {0}"
 #. Label of the topic (Link) field in DocType 'Discussion Reply'
 #: frappe/website/doctype/discussion_reply/discussion_reply.json
 msgid "Topic"
-msgstr ""
+msgstr "Konu"
 
 #: frappe/desk/query_report.py:510
 #: frappe/public/js/frappe/views/reports/print_grid.html:45
@@ -27162,7 +27162,7 @@ msgstr "Toplam Hatalar (Son 1 Gün)"
 
 #: frappe/public/js/frappe/ui/capture.js:259
 msgid "Total Images"
-msgstr ""
+msgstr "Toplam Görüntüler"
 
 #. Label of the total_outgoing_emails (Int) field in DocType 'System Health
 #. Report'
@@ -28457,7 +28457,7 @@ msgstr "Kullanıcı Adı"
 
 #: frappe/core/doctype/user/user.py:683
 msgid "Username {0} already exists"
-msgstr ""
+msgstr "Kullanıcı adı {0} zaten var"
 
 #. Label of the users (Table MultiSelect) field in DocType 'Assignment Rule'
 #. Name of a Workspace
@@ -28627,7 +28627,7 @@ msgstr "Bu alandaki değer, Yapılacaklar'da son tarih olarak ayarlanacaktır"
 
 #: frappe/core/doctype/data_import/importer.py:707
 msgid "Value must be one of {0}"
-msgstr ""
+msgstr "{0} değerlerinden biri olmalıdır"
 
 #. Label of the value_to_validate (Data) field in DocType 'Onboarding Step'
 #: frappe/desk/doctype/onboarding_step/onboarding_step.json
@@ -28735,7 +28735,7 @@ msgstr "Yorumu Görüntüle"
 
 #: frappe/core/doctype/user/user.js:151
 msgid "View Doctype Permissions"
-msgstr ""
+msgstr "Doctype İzinlerini Görüntüle"
 
 #: frappe/public/js/frappe/ui/notifications/notifications.js:220
 msgid "View Full Log"
