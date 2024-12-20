@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2024-12-01 09:33+0000\n"
-"PO-Revision-Date: 2024-12-19 20:45\n"
+"PO-Revision-Date: 2024-12-20 20:41\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\n"
@@ -6208,7 +6208,7 @@ msgstr "Anpassad HTML Hjälp"
 
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.py:114
 msgid "Custom LDAP Directoy Selected, please ensure 'LDAP Group Member attribute' and 'Group Object Class' are entered"
-msgstr "Anpassad LDAP-katalog har valts, se till att LDAP-gruppmedlemsattribut\" och \"Group Object Class\" har angetts\""
+msgstr "Anpassad LDAP Katalog Vald, se till att 'LDAP Grupp Medlem Attribut\" och 'Grupp Objekt Klass' är angivna"
 
 #. Label of the label (Data) field in DocType 'Web Form Field'
 #. Label of the label (Data) field in DocType 'Web Form List Column'
@@ -9020,7 +9020,7 @@ msgstr "Aktivera Lösenord Regel"
 #. Permission for Page and Report'
 #: frappe/core/doctype/role_permission_for_page_and_report/role_permission_for_page_and_report.json
 msgid "Enable Prepared Report"
-msgstr "Aktivera Färdiga Rapporter"
+msgstr "Aktivera Förberedd Rapport"
 
 #. Label of the enable_print_server (Check) field in DocType 'Print Settings'
 #: frappe/printing/doctype/print_settings/print_settings.json
@@ -9031,7 +9031,7 @@ msgstr "Aktivera Skrivar Server"
 #. Notification Settings'
 #: frappe/integrations/doctype/push_notification_settings/push_notification_settings.json
 msgid "Enable Push Notification Relay"
-msgstr "Aktivera Push-Avisering relä"
+msgstr "Aktivera Push Avisering Relä"
 
 #. Label of the enable_rate_limit (Check) field in DocType 'Server Script'
 #: frappe/core/doctype/server_script/server_script.json
@@ -9164,13 +9164,13 @@ msgstr "Om automatiskt svar aktiveras på inkommande E-post Konto, skickas autom
 #. Description of a DocType
 #: frappe/integrations/doctype/push_notification_settings/push_notification_settings.json
 msgid "Enabling this will register your site on a central relay server to send push notifications for all installed apps through Firebase Cloud Messaging. This server only stores user tokens and error logs, and no messages are saved."
-msgstr "Om du aktiverar detta registreras din webbplats på en central reläserver för att skicka push-meddelanden för alla installerade appar via Firebase Cloud Messaging. Den här servern lagrar endast användartokens och felloggar, och inga meddelanden sparas."
+msgstr "Om aktiverad kommer detta registreras på webbplats på central reläserver för att skicka push aviseringar för alla installerade appar via Firebase Cloud Messaging. Den här servern lagrar endast användare token och felloggar, och inga aviseringar sparas."
 
 #. Description of the 'Relay Settings' (Section Break) field in DocType 'Push
 #. Notification Settings'
 #: frappe/integrations/doctype/push_notification_settings/push_notification_settings.json
 msgid "Enabling this will register your site on a central relay server to send push notifications for all installed apps through Firebase Cloud Messaging. This server only stores user tokens and error logs, and no messages are saved. "
-msgstr "Om du aktiverar detta registreras din webbplats på en central reläserver för att skicka push-meddelanden för alla installerade appar via Firebase Cloud Messaging. Den här servern lagrar endast användartokens och felloggar, och inga meddelanden sparas."
+msgstr "Om aktiverad kommer detta registreras på webbplats på central reläserver för att skicka push aviseringar för alla installerade appar via Firebase Cloud Messaging. Den här servern lagrar endast användare token och felloggar, och inga aviseringar sparas. "
 
 #. Description of the 'Queue in Background (BETA)' (Check) field in DocType
 #. 'DocType'
@@ -9397,7 +9397,7 @@ msgstr "Fel Logg"
 #. Label of the error_message (Text) field in DocType 'Prepared Report'
 #: frappe/core/doctype/prepared_report/prepared_report.json
 msgid "Error Message"
-msgstr "Fel Meddelande"
+msgstr "Felmeddelande"
 
 #: frappe/public/js/frappe/form/print_utils.js:128
 msgid "Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Click here to Download and install QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://erpnext.com/docs/user/manual/en/setting-up/print/raw-printing\">Click here to learn more about Raw Printing</a>."
@@ -10404,7 +10404,7 @@ msgstr "Filter Namn"
 #. Label of the filter_values (HTML) field in DocType 'Prepared Report'
 #: frappe/core/doctype/prepared_report/prepared_report.json
 msgid "Filter Values"
-msgstr "Filter Värden"
+msgstr "Filtervärden"
 
 #: frappe/utils/data.py:2026
 msgid "Filter must be a tuple or list (in a list)"
@@ -10517,7 +10517,7 @@ msgstr "Klar"
 #. Label of the report_end_time (Datetime) field in DocType 'Prepared Report'
 #: frappe/core/doctype/prepared_report/prepared_report.json
 msgid "Finished At"
-msgstr "Avslutade Kl"
+msgstr "Färdigställd"
 
 #. Label of the first_day_of_the_week (Select) field in DocType 'Language'
 #. Label of the first_day_of_the_week (Select) field in DocType 'System
@@ -26027,7 +26027,7 @@ msgstr "Angiven Fil URL är felaktig"
 
 #: frappe/integrations/doctype/push_notification_settings/push_notification_settings.py:29
 msgid "The Push Relay Server URL key (`push_relay_server_url`) is missing in your site config"
-msgstr "Push Relay Server URL nyckel (`push_relay_server_url`) saknas i webbplats konfiguration"
+msgstr "Push Relä Server URL nyckel (`push_relay_server_url`) saknas i webbplats konfiguration"
 
 #: frappe/website/doctype/personal_data_deletion_request/personal_data_deletion_request.py:367
 msgid "The User record for this request has been auto-deleted due to inactivity by system admins."
@@ -30882,7 +30882,7 @@ msgstr "sträng värde, dvs grupp"
 #. 'LDAP Settings'
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.json
 msgid "string value, i.e. member"
-msgstr "sträng värde, dvs medlem"
+msgstr "sträng värde, d.v.s medlem"
 
 #. Description of the 'Custom Group Search' (Data) field in DocType 'LDAP
 #. Settings'
